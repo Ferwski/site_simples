@@ -19,10 +19,9 @@ body {
             TIPOGRAFIA
       ---------------------------- */
 
-h1,
-h2 {
+h1 {
     font-family: Montserrat, sans-serif;
-    max-width: 60ch;
+    max-width: 50ch;
     margin: 20px 0 30px 0;
     font-weight: 700;
 }
@@ -32,7 +31,10 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5em;
+    font-family: Montserrat, sans-serif;
+    max-width: 80ch;
+    margin: 20px 0 30px 0;
+    font-weight: 700;
 }
 
 h3 {
@@ -94,17 +96,18 @@ nav a:hover {
 .btn {
     border-radius: 20px;
     padding: 6px 15px 10px 15px;
-    background: #464343;
-    color: #817f83;
+    background: #303030;
+    color: rgb(214, 211, 211);
     font-weight: 700;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.5s;
     cursor: pointer;
 }
 
 .btn:hover {
-    background: white;
+    background: rgb(214, 211, 211);
     color: black;
     position: relative;
     top: -5px;
-    border: solid #4d4a4a;
+    border: solid #303030;
+    box-shadow: 0px 5px 6px 0px rgba( 0, 0, 0, 0, 0.30);
 }
